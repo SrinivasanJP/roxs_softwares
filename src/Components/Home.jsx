@@ -24,8 +24,8 @@ const Home = ({setPage}) => {
     >
       <Navigation setPage={setPage}/>
       <section className={homeStyle.root+" bg-cover bg-[center_right_45em] md:bg-center flex md:justify-end justify-center"} id='home'>
-        <div className='flex flex-col md:w-[40%] '>
-          <p className=' text-white mt-[10em] md:mr-[2em] text-xl text-center md:text-left'>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you.</p>
+        <div className='flex flex-col md:w-[40%] m-10'>
+          <p className=' text-white mt-[8em]  text-xl text-left md:mt-[10em]'>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you sometimes humans can barrow some help to impore the efficiency and productivity.</p>
           <button className='text-white text-left mt-5 w-fit px-5 py-2 rounded-full bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] '>Learn More</button>
         </div>
           
