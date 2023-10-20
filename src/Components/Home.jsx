@@ -24,7 +24,11 @@ const Home = ({setPage}) => {
     >
       <Navigation setPage={setPage}/>
       <section className={homeStyle.root+" bg-cover bg-[center_right_45em] md:bg-center flex md:justify-end justify-center"} id='home'>
-          <p className=' text-white mt-[10em] md:mr-[2em] text-xl md:w-[40%] text-center md:text-left'>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you.</p>
+        <div className='flex flex-col md:w-[40%] '>
+          <p className=' text-white mt-[10em] md:mr-[2em] text-xl text-center md:text-left'>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you.</p>
+          <button className='text-white text-left mt-5 w-fit px-5 py-2 rounded-full bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] '>Learn More</button>
+        </div>
+          
       {/* <div className='flex mx-10'>
         <div className='text-white w-[80%] h-[80%] backdrop-blur-sm backdrop-filter bg-opacity-70 rounded-2xl z-10 shadow-gray-700 flex items-start shadow-inner flex-col p-6'>
           
