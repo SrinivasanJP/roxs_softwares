@@ -1,6 +1,6 @@
 const homeStyle = {
     root:"w-screen h-screen bg-astronaut-fall shadow-[inset_0_0_100px_100px_#0c1015] bg-cover bg-cover bg-[center_right_45em] md:bg-center flex md:justify-end justify-center",
-    p: "text-white mt-[8em]  text-xl text-left md:mt-[10em]",
+    p: "text-white text-xl text-left my-5",
 }
 const we_are = {
     root:"w-screen h-screen flex justify-center items-center relative flex-col md:flex-row",

@@ -26,7 +26,8 @@ const Home = ({setPage}) => {
       <Navigation setPage={setPage}/>
       <section className={homeStyle.root} id='home'>
         <div className='flex flex-col md:w-[40%] m-10'>
-          <p className={homeStyle.p}>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you sometimes humans can barrow some help to impore the efficiency and productivity.</p>
+          <h1 className={common.textNabula+" md:mt-[5em]"}>Build with ROXs</h1>
+          <p className={homeStyle.p}>Welcome to our thriving software development community—a place where innovation converges with aspiration. In this dynamic ecosystem, we welcome newcomers to the industry, embracing their fresh perspectives and boundless enthusiasm. Here, you'll discover a world of opportunity, where novices are empowered to shape tomorrow's technology.</p>
           <button className={common.Buttonblue}>Learn More</button>
         </div>
           
