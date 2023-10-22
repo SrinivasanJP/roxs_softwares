@@ -45,7 +45,7 @@ export default {
         blink: "blink 1s infinite alternate",
         drone: "bounce 15s infinite alternate",
         orbit: "rotateOrbit 200s infinite alternate",
-        spinOrbit: "rotateOrbit 300s infinite alternate"
+        spinOrbit: "rotateOrbit 100s infinite alternate"
       }
     },
   },
