@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navigation from './Navigation'
-import { homeStyle } from '../styles'
+import { homeStyle, common } from '../styles'
+import { We_are } from './We_are'
 const Home = ({setPage}) => {
   const spanD = 'w-2 h-2 bg-[#4D78EF] inline-block rounded-full mr-5 animate-pulse'
   const liD = ' bg-gradient-to-r  from-slate-950 px-5 py-3 rounded-2xl mt-3'
@@ -23,10 +24,10 @@ const Home = ({setPage}) => {
     <div id="home" className="mt-[66px]"
     >
       <Navigation setPage={setPage}/>
-      <section className={homeStyle.root+" bg-cover bg-[center_right_45em] md:bg-center flex md:justify-end justify-center"} id='home'>
+      <section className={homeStyle.root} id='home'>
         <div className='flex flex-col md:w-[40%] m-10'>
-          <p className=' text-white mt-[8em]  text-xl text-left md:mt-[10em]'>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you sometimes humans can barrow some help to impore the efficiency and productivity.</p>
-          <button className='text-white text-left mt-5 w-fit px-5 py-2 rounded-full bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] '>Learn More</button>
+          <p className={homeStyle.p}>Explore the paperless world move your business to digital world with ROXs Softwares make softwares work for you sometimes humans can barrow some help to impore the efficiency and productivity.</p>
+          <button className={common.Buttonblue}>Learn More</button>
         </div>
           
       {/* <div className='flex mx-10'>
@@ -41,6 +42,7 @@ const Home = ({setPage}) => {
        
 
       </section>
+      <We_are />
       {/* <section id='courses' className=' h-full w-screen text-gray-100  flex justify-center flex-col md:w-[60%] mx-auto'>
         <div className=' w-[85%] h-[80%] backdrop-blur-md backdrop-filter bg-opacity-70 rounded-2xl mx-auto z-10 shadow-gray-700 shadow-inner'>
 
