@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        "astronaut-fall": "url('./src/assets/astronaut/backSpace.jpg')"
+        "astronaut-fall": "url('./src/assets/astronaut/backSpace.jpg')",
+        "spaceShip": "url('./src/assets/astronaut/ship.jpg')"
       },
       fontFamily:{
         "SpaceMono":["Space Mono"]

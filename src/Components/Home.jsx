@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navigation from './Navigation'
 import { homeStyle, common } from '../styles'
 import { We_are } from './We_are'
+import What_we_do from './What_we_do'
 const Home = ({setPage}) => {
   const spanD = 'w-2 h-2 bg-[#4D78EF] inline-block rounded-full mr-5 animate-pulse'
   const liD = ' bg-gradient-to-r  from-slate-950 px-5 py-3 rounded-2xl mt-3'
@@ -44,6 +45,7 @@ const Home = ({setPage}) => {
 
       </section>
       <We_are />
+      <What_we_do />
       {/* <section id='courses' className=' h-full w-screen text-gray-100  flex justify-center flex-col md:w-[60%] mx-auto'>
         <div className=' w-[85%] h-[80%] backdrop-blur-md backdrop-filter bg-opacity-70 rounded-2xl mx-auto z-10 shadow-gray-700 shadow-inner'>
 
