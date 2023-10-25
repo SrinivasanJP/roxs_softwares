@@ -29,7 +29,7 @@ function Navigation({setPage}) {
           <ul className="flex w-full flex-row justify-evenly items-center flex-wrap ">
             <li className="mt-2 w-full md:w-20 text-end md:text-start "><a href="#home" className='w-full inline-block text-center text-gray-400 hover:text-gray-50' >Home</a></li>
             <li className="mt-2 w-full md:w-32 text-end md:text-start "><a href="#we_are" className='w-full inline-block text-center text-gray-400 hover:text-gray-50'>Who we are</a></li>
-            <li className="mt-2 w-full md:w-20 text-end md:text-start "><a href="#about" className='w-full inline-block text-center text-gray-400 hover:text-gray-50'>About</a></li>
+            <li className="mt-2 w-full md:w-32 text-end md:text-start "><a href="#what_we_do" className='w-full inline-block text-center text-gray-400 hover:text-gray-50'>What we do</a></li>
             <li className=" mt-2 w-full md:w-20 text-end md:text-start "><a href="#contact" className='w-full inline-block text-center text-gray-400 hover:text-gray-50'>Contact</a></li>
           </ul>
         </nav>
