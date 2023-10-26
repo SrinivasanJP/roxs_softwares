@@ -16,4 +16,8 @@ const common = {
     Buttonblue:"text-white text-left mt-5 w-fit px-5 py-2 rounded-full bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] animate-pulse",
     textNabula: 'bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] bg-clip-text text-transparent font-extrabold text-3xl'
 }
-export {homeStyle,common,we_are, what_we_do}
+const about = {
+    root:"text-gray-100 p-10 md:w-[60%] mx-auto",
+    p:" text-justify mb-5",
+}
+export {homeStyle,common,we_are, what_we_do, about}

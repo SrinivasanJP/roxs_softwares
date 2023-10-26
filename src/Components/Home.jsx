@@ -3,24 +3,14 @@ import Navigation from './Navigation'
 import { homeStyle, common } from '../styles'
 import { We_are } from './We_are'
 import What_we_do from './What_we_do'
+import About from './About'
+import ContactUs from './ContactUs'
 const Home = ({setPage}) => {
   const spanD = 'w-2 h-2 bg-[#4D78EF] inline-block rounded-full mr-5 animate-pulse'
   const liD = ' bg-gradient-to-r  from-slate-950 px-5 py-3 rounded-2xl mt-3'
   const liED = ' bg-gradient-to-r  from-slate-950 px-5 py-3 rounded-2xl mt-3'
 
-  const [contactData, setContactData]= useState({
-    name: '',
-    email: '',
-    message: '',
-    submitted: false,
-  })
-  const handleSubmit = (e)=>{
-    e.preventDefault()
-    setContactData({...contactData,submitted:true})
-  }
-  const handleChange = (e)=>{
-    setContactData({...contactData,[e.target.name]:e.target.value})
-  }
+  
   return (
     <div id="home" className="mt-[66px]"
     >
@@ -46,6 +36,8 @@ const Home = ({setPage}) => {
       </section>
       <We_are />
       <What_we_do />
+      <About />
+      <ContactUs />
       {/* <section id='courses' className=' h-full w-screen text-gray-100  flex justify-center flex-col md:w-[60%] mx-auto'>
         <div className=' w-[85%] h-[80%] backdrop-blur-md backdrop-filter bg-opacity-70 rounded-2xl mx-auto z-10 shadow-gray-700 shadow-inner'>
 
@@ -103,7 +95,7 @@ const Home = ({setPage}) => {
         </ol>
         </div>
       </section> */}
-      <section id="about" className=' text-gray-100 p-10 md:w-[60%] mx-auto'>
+      {/* <section id="about" className=' text-gray-100 p-10 md:w-[60%] mx-auto'>
         <h1 className=' text-3xl font-bold text-center bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] bg-clip-text text-transparent my-14'>About Our Academy</h1>
         <p className=' text-justify mb-5'>
           ROXs Academy is dedicated to providing high-quality education
@@ -139,8 +131,8 @@ const Home = ({setPage}) => {
           We are here to answer any questions you may have. Feel free to
           contact us at <a href="mailto:jpsrinivasan38@gmail.com" className='hover:text-orange-300 hover:border-b-2'>help@roxs.com</a>
         </p>
-      </section>
-      <section id="contact" className=' text-gray-100 p-10 md:w-[60%] mx-auto'>
+      </section> */}
+      {/* <section id="contact" className=' text-gray-100 p-10 md:w-[60%] mx-auto'>
         <h1 className=' text-3xl font-bold text-center bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#7ED4FD_14.06%,#709DF7_51.02%,#4D78EF_79.09%)] bg-clip-text text-transparent my-14'>Contact Us</h1>
         {contactData.submitted ? (
           <div className="message-sent">
@@ -189,7 +181,7 @@ const Home = ({setPage}) => {
             </form>
           </div>
         )}
-      </section>
+      </section> */}
     </div>
     
   )
