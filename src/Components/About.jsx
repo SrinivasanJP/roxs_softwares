@@ -25,7 +25,7 @@ const About = () => {
     </p>
 
     <h2 className=' font-bold text-2xl text-indigo-500 my-2'>Why Choose Us</h2>
-    <p className=' text-justify'>
+    <div className=' text-justify'>
       <ul className=' list-disc list-inside'>
         <li>Pay when the software is ready to use no payments before you experience the software.</li>
         <li>Low cost compared to other software developement organization</li>
@@ -33,7 +33,7 @@ const About = () => {
         <li>Fastest delivery</li>
         <li>Low maintainance cost </li>
       </ul>
-    </p>
+    </div>
 
     <h2 className=' font-bold text-2xl text-indigo-500 my-2'>Get in Touch</h2>
     <p className=' text-justify'>
