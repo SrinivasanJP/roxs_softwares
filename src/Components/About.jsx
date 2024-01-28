@@ -15,14 +15,14 @@ const About = () => {
     </p>
 
     <h2 className=' font-bold text-2xl text-indigo-500 my-2'>Our Team</h2>
-    <p className=' text-justify'>
+    <div className=' text-justify'>
     Our organization is led by a team of dedicated individuals who bring expertise and passion to the table. Meet some of our key leaders: <br /><ul className=' list-disc list-inside'>
         <li>Srinivasan J.P. - Founder and CEO</li>
     </ul>
     Staff or Team
 
     Behind our mission are the hardworking individuals who make it happen. Our diverse team is united by a common goal and a commitment to paperless world.
-    </p>
+    </div>
 
     <h2 className=' font-bold text-2xl text-indigo-500 my-2'>Why Choose Us</h2>
     <div className=' text-justify'>
