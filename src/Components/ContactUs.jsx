@@ -1,5 +1,7 @@
+import { doc, setDoc } from 'firebase/firestore'
 import React from 'react'
 import { useState } from 'react'
+import { db } from '../config/firebase'
 const ContactUs = () => {
     const [contactData, setContactData]= useState({
         name: '',
@@ -7,9 +9,12 @@ const ContactUs = () => {
         message: '',
         submitted: false,
       })
-      const handleSubmit = (e)=>{
+      const handleSubmit = async (e)=>{
         e.preventDefault()
-        setContactData({...contactData,submitted:true})
+        
+        await setDoc(doc(db, "clients" , contactData["email"]),{...contactData}).then(()=>{
+          setContactData({...contactData,submitted:true})
+        })
       }
       const handleChange = (e)=>{
         setContactData({...contactData,[e.target.name]:e.target.value})
